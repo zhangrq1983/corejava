@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="68f98631-aee8-456a-850c-cd2882477c2a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1WFqxRza5IuqSKe3Y8kkiwGGSQx" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15350488" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\MyCode\corejava\src" />
+      <recent name="D:\Code\MyCode\corejava\src\v1ch02" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.GenericReflectionTest">
+    <configuration name="GenericAlgorithms" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="corejava.v1ch08.genericAlgorithms.GenericAlgorithms" />
+      <module name="corejava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="corejava.v1ch08.genericAlgorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GenericReflectionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="corejava.v1ch08.genericReflection.GenericReflectionTest" />
+      <module name="corejava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="corejava.v1ch08.genericReflection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoggingImageViewer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="corejava.v1ch07.logging.LoggingImageViewer" />
+      <module name="corejava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="corejava.v1ch07.logging.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PairTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="corejava.v1ch08.pair1.PairTest1" />
+      <module name="corejava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="corejava.v1ch08.pair1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StackTraceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="corejava.v1ch07.stackTrace.StackTraceTest" />
+      <module name="corejava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="corejava.v1ch07.stackTrace.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 6.0.53" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 6.0.53" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
+      <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+      <deployment>
+        <artifact name="corejava:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/corejava" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_6_0_53_corejava" />
+        <option name="DEPLOY_TOMCAT_APPS" value="true" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="65125" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="corejava:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.StackTraceTest" />
+      <item itemvalue="Application.LoggingImageViewer" />
+      <item itemvalue="Tomcat Server.Tomcat 6.0.53" />
+      <item itemvalue="Application.PairTest1" />
+      <item itemvalue="Application.GenericAlgorithms" />
+      <item itemvalue="Application.GenericReflectionTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GenericReflectionTest" />
+        <item itemvalue="Application.GenericAlgorithms" />
+        <item itemvalue="Application.PairTest1" />
+        <item itemvalue="Application.LoggingImageViewer" />
+        <item itemvalue="Application.StackTraceTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="68f98631-aee8-456a-850c-cd2882477c2a" name="Default Changelist" comment="" />
+      <created>1578755939774</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578755939774</updated>
+      <workItem from="1578755949271" duration="2534000" />
+      <workItem from="1578832087036" duration="2320000" />
+      <workItem from="1579529648265" duration="268000" />
+      <workItem from="1581065672060" duration="391000" />
+      <workItem from="1581478542758" duration="48000" />
+      <workItem from="1581478891003" duration="587000" />
+      <workItem from="1581479810845" duration="40000" />
+      <workItem from="1581480368343" duration="242000" />
+      <workItem from="1581480653369" duration="97000" />
+      <workItem from="1581480790050" duration="320000" />
+      <workItem from="1581512223173" duration="876000" />
+      <workItem from="1581513679635" duration="156000" />
+      <workItem from="1581514178598" duration="200000" />
+      <workItem from="1581932406129" duration="3557000" />
+      <workItem from="1582124084314" duration="1465000" />
+      <workItem from="1582540608381" duration="2773000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="392" y="89" key="#Notifications" timestamp="1581480464815">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="89" key="#Notifications/0.0.1600.860@0.0.1600.860" timestamp="1581480464815" />
+    <state x="254" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578756147008">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="254" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1578756147008" />
+    <state x="580" y="185" key="FileChooserDialogImpl" timestamp="1578758559884">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1578758559884" />
+    <state width="1557" height="195" key="GridCell.Tab.0.bottom" timestamp="1582125558218">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="195" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1582125558218" />
+    <state width="1557" height="195" key="GridCell.Tab.0.center" timestamp="1582125558218">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="195" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1582125558218" />
+    <state width="1557" height="195" key="GridCell.Tab.0.left" timestamp="1582125558218">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="195" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1582125558218" />
+    <state width="1557" height="195" key="GridCell.Tab.0.right" timestamp="1582125558218">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="195" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1582125558218" />
+    <state width="1557" height="195" key="GridCell.Tab.1.bottom" timestamp="1582125558218">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="195" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1582125558218" />
+    <state width="1557" height="195" key="GridCell.Tab.1.center" timestamp="1582125558218">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="195" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1582125558218" />
+    <state width="1557" height="195" key="GridCell.Tab.1.left" timestamp="1582125558218">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="195" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1582125558218" />
+    <state width="1557" height="195" key="GridCell.Tab.1.right" timestamp="1582125558218">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="195" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1582125558218" />
+    <state x="280" y="5" key="SettingsEditor" timestamp="1582541872790">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="280" y="5" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1582541872790" />
+    <state x="476" y="163" width="647" height="534" key="find.popup" timestamp="1582541854835">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="476" y="163" width="647" height="534" key="find.popup/0.0.1600.860@0.0.1600.860" timestamp="1582541854835" />
+    <state x="518" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1578757010914">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="518" y="239" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1578757010914" />
+  </component>
+</project>

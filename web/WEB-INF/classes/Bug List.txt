@@ -1,0 +1,274 @@
+第10版第1卷（Java SE 8）
+[2]第51页
+在警告说明中，更改\u00A0为\u000A。
+
+[2]第74页
+更改“ API文档是JDK的一部分。它是HTML格式。将Web浏览器指向JDK安装的docs / api / index.html子目录（图3.2）。”到“您可以从Oracle下载API文档并将其保存在本地，或者可以将浏览器指向http://docs.oracle.com/javase/8/docs/api（图3.2）。 。”
+[2]第89页
+更改“最后，有一个for循环的变体，在C或C ++中没有模拟。它类似于C＃中的foreach循环。”改为“最后，有一个for循环的变体，类似于forC ++中的基于范围的循环和foreachC＃中的循环。”
+第143页
+1将“ 1周一1 ” 更改为“ 周一”
+第145章一更
+在的API注释中java.util.LocalDate，将更LocalTime改为LocalDate（2x）
+[2]第150页
+更改
+LocalDate hireDay = LocalDate.of（年，月，日）;
+至
+hireDay = LocalDate.of（年，月，日）;
+157章
+将“可以确保该类的设计师永远不会在其他课程之外使用”更改为“可以确保该类的设计师永远不会在其他课程之外使用”
+第162页
+更改
+LocalDate hireDay = LocalDate.now（year，month，day）;
+至
+hireDay = LocalDate.of（年，月，日）;
+第172页
+将“那里”更改为“那里”
+[2]第173页
+更改
+员工（字符串名称，双薪，int y，int m，int d）
+至
+public Employee（字符串n，double s，int年，int月，int日）
+[2]第178页
+将步骤3移到编号列表中的步骤1之前，并将“执行第二个构造函数的主体”更改为“在继续该构造函数的主体之前，使用第二个构造函数构造对象”
+[2]第183页
+将“例如，您可以java.util使用语句导入包中的所有类”更改为“例如，您可以使用语句import java.util.*;导入java.time包中的所有类import java.time.*;”
+[2]第189页
+将标题为“ Package Scope”的部分更改为“ Package Access”
+[2]第189页
+将“程序包可见性”更改为“程序包访问”
+
+第207页
+更改
+超级（n，s，年，月，日）;
+至
+超级（姓名，工资，年，月，日）；
+
+第227页
+将“ nama”更改为“ name”
+
+[2]第230页
+更改Object.equals(hireDay, other.hireDay)为Objects.equals(hireDay, other.hireDay)
+
+第240页
+改变“清单中的程序5.8实现equals，hashCode和toString办法”，“程序清单5.8的测试中equals，hashCode和toString方法”
+
+[2]第243页
+更改
+返回super.hashCode（）+ 17 * new Double（bonus）.hashCode（）;
+至
+返回java.util.Objects.hash（super.hashCode（），奖励）;
+
+[2]第251页
+更改void set(int index, E obj)为E set(int index, E obj)“覆盖先前的内容”并将其“覆盖先前的内容”。
+
+[2]第258页
+之后删除分号 public enum Size { SMALL, MEDIUM, LARGE, EXTRA_LARGE }
+
+[2]第290页
+将“程序包可见性”更改为“程序包访问”
+[2]第292页
+删除“用于对员工数组进行排序”
+第296页
+将“虽然不能在接口中放置实例字段或静态方法”更改为“虽然不能在接口中放置实例字段”，
+[2]第300页
+将“用getName方法考虑另一个接口：” 更改为“用方法考虑两个接口getName：”，并将下面的代码更改为：
+界面人
+{
+   默认字符串getName（）{返回“”；};
+}
+
+接口命名
+{
+   默认字符串getName（）{return getClass（）。getName（）+“ _” + hashCode（）; }
+}
+第321页
+将页面顶部的代码更改为（甚至更人为设计）
+迎宾活动
+{
+   公开无效问候（ActionEvent事件）
+   {
+      System.out.println（“ H​​ello，” + event）;
+   }
+}
+
+TimedGreeter类扩展Greeter
+{
+   公开无效问候（ActionEvent事件）
+   {
+      计时器t =新计时器（1000，super :: greet）;
+      t.start（）;
+   }
+}
+[2]第323页
+将“引用变量也非法”更改为“引用变量也非法”。
+[2]第324页
+更改public class Application()为public class Application
+第328页
+将“如果您不小心添加了另一个非抽象方法，编译器会显示一条错误消息。”更改为“如果您不小心添加了另一个抽象方法，则编译器会显示一条错误消息。”
+第335页
+更改为“在内部类中声明的任何静态字段都必须为final。...如果该字段不是 final，则可能不是唯一的。”改为“必须在内部类中声明的任何静态字段都必须final使用编译时常量进行初始化。如果该字段不是常数，则可能不是唯一的。”
+[2]第338页
+将“因为秘密访问方法具有程序包可见性”更改为“因为秘密访问方法具有程序包访问性”
+[2]第341页
+删除注释上方的“如我们已经提到的...总是相同的值”段落。
+[2]第376页
+更改
+试试（Scanner in = new Scanner（new FileInputStream（“ / usr / share / dict / word”），“ UTF-8”）
+至
+试试（Scanner in = new Scanner（new FileInputStream（“ / usr / share / dict / words”），“ UTF-8”））
+[2]第378页
+更改
+StackTraceTest.factorial（StackTraceTest.java:18）
+StackTraceTest.main（StackTraceTest.java:34）
+阶乘（2）：
+StackTraceTest.factorial（StackTraceTest.java:18）
+StackTraceTest.factorial（StackTraceTest.java:24）
+StackTraceTest.main（StackTraceTest.java:34）
+阶乘（1）：
+StackTraceTest.factorial（StackTraceTest.java:18）
+StackTraceTest.factorial（StackTraceTest.java:24）
+StackTraceTest.factorial（StackTraceTest.java:24）
+StackTraceTest.main（StackTraceTest.java:34）
+至
+stackTrace.StackTraceTest.factorial（StackTraceTest.java:20）
+stackTrace.StackTraceTest.main（StackTraceTest.java:36）
+阶乘（2）：
+stackTrace.StackTraceTest.factorial（StackTraceTest.java:20）
+stackTrace.StackTraceTest.factorial（StackTraceTest.java:26）
+stackTrace.StackTraceTest.main（StackTraceTest.java:36）
+阶乘（1）：
+stackTrace.StackTraceTest.factorial（StackTraceTest.java:20）
+stackTrace.StackTraceTest.factorial（StackTraceTest.java:26）
+stackTrace.StackTraceTest.factorial（StackTraceTest.java:26）
+stackTrace.StackTraceTest.main（StackTraceTest.java:36）
+[2]第393页
+将“至少Java SE 7以上”更改为“ Java SE 7以上”。
+[2]第428页
+将“假设DateInterval方法也覆盖getSecond方法：”更改为“假设DateInterval类也覆盖getSecond方法：”
+[2]第428页
+更改
+public void setSecond（Object second）{setSecond（（Date）second）; }
+至
+public void setSecond（Object second）{setSecond（（LocalDate）second）; }
+并改变
+public LocalDate getSecond（）{return（Date）super.getSecond（）。clone（）; }
+至
+public LocalDate getSecond（）{return（LocalDate）super.getSecond（）; }
+第428章
+将“它调用DateInterval.setSecond(Date)，这就是我们想要的”更改为“它调用DateInterval.setSecond(LocalDate)，这就是我们想要的”。
+[2]第432页
+更改
+对于（t：ts）coll.add（t）;
+至
+对于（T t：ts）coll.add（t）;
+第447页
+将“它与通用类型匹配names（即String[]）的类型T[]”更改为“它与通用类型 匹配参数的类型 T...”
+[2]第448页
+更改
+PairAlg.swap（result）; //确定-swapHelper捕获通配符类型
+至
+PairAlg.swapHelper（result）; //确定-swapHelper捕获通配符类型
+[2]第467页
+更改return = true;为return true;
+[2]第468页
+更改boolean add(Object element)为boolean add(E element)
+第476页
+更改Iterator iter为Iterator<String> iter
+[2]第489页
+更改System.println为System.out.println
+[2]第492页
+更改descripion到description的toString方法。
+[2]第493页
+更改E pollLast为E pollLast()
+[2]第496页
+更改 @version 1.01 2012-01-26为@version 1.02 2015-06-20
+[2]第497页
+更改int score = scores.get(id, 0);为int score = scores.getOrDefault(id, 0);
+[2]第498页
+更改@version 1.11 2012-01-26为@version 1.12 2015-06-21
+[2]第501页
+将“如果先前不存在密钥”更改为“如果先前不存在（或映射到null）。”，然后将以下内容添加到API注释中：
+default V putIfAbsent(K key, V value) 8
+如果key不存在或关联null，则将其关联value并返回null。否则返回相关值。
+
+第506页
+在第二个代码显示中，将最后一行从更改}();为};
+[2]第510页
+更改List group2为List<Employee> group2
+[2]第513页
+变化“如方法 get和put被序列”到“方法，如 get和put被同步”
+第522页
+将“如果元素类型实现RandomAccess接口，则使用线性搜索，在所有其他情况下使用二进制搜索” 更改为“如果元素类型实现接口，则使用二进制搜索，在所有其他情况下使用RandomAccess线性搜索”
+[2]第523页
+更改Collections.replaceAll("C++", "Java");为Collections.replaceAll(words, "C++", "Java");
+[2]第529页
+更改
+Enumeration <Employee> e = staff.elements（）;
+而（e.hasMoreElements（））
+{
+   员工e = e.nextElement（）;
+   。。。
+}
+至
+Enumeration <Employee>值= table.elements（）;
+而（values.hasMoreElements（））
+{
+   员工e = values.nextElement（）;
+。。。
+}
+[2]第550页
+在“您可以通过调用来最大化框架”之前添加项目符号
+[2]第551页
+更改@version 1.33 2007-05-12为@version 1.34 2015-06-16
+[2]第566页
+更改@version 1.33 2007-05-12为@version 1.34 2015-06-16
+[2]第576页
+更改
+Rectangle2D bounds = sansbold14..getStringBounds（message，context）;
+至
+Rectangle2D bounds = sansbold14.getStringBounds（message，context）;
+[2]第670页
+更改
+faceCombo.getItemAt（faceCombo.setSelectedIndex（）），
+至
+faceCombo.getItemAt（faceCombo.getSelectedIndex（）），
+[2]第680页
+将“当用户选择菜单时”更改为“当用户选择菜单项时”。
+[2]第686页
+更改
+cutAction.putValue（Action.MNEMONIC_KEY，新的Integer（'A'））;
+至
+aboutAction.putValue（Action.MNEMONIC_KEY，new Integer（'A'））;
+[2]第707页
+将“ GBC帮助器类在清单12.12中”更改为“ GBC帮助器类在清单12.11中”
+[2]第889页
+将“必须拥有”更改为“必须拥有”
+第908页
+删除“由于putIfAbsent返回了映射的值（现有值或新放置的值），因此您可以将以下两个语句组合在一起： map.putIfAbsent(word, new LongAdder()).increment();”
+[2]第933页
+将“包裹在未选中的框中ExecutionException” 更改为“包裹在ExecutionException”中
+================================================================================
+
+第10版第2卷（Java SE 8）
+第60话
+更改
+PrintWriter out =新的PrintWriter（
+   新的FileOutputStream（“ employee.txt”），“ UTF-8”）;
+至
+PrintWriter out =新的PrintWriter（
+   新的FileOutputStream（“ employee.txt”），false，“ UTF-8”）；
+第77页
+更改“将条目传递给的getInputStream方法，ZipInputStream以获取用于读取条目的输入流。”到“从流中读取到结尾，这实际上是当前条目的结尾。”变更
+    InputStream in = zin.getInputStream（entry）;
+   阅读 in 的内容
+至
+   阅读 zin 的内容
+第102章一更
+更改/opt/myXapp/temp为/opt/myapp/temp
+第238页
+将“如果已为套接字设置了超时值，则所有后续的读写操作”更改为“如果已为套接字设置了超时值，则所有后续的读写操作”
+第239章
+更改InterruptedIOException到SocketTimeoutException（2个）
+第891页
+更改catch (UnsupportedFlavorException e | IOException ex)为catch (UnsupportedFlavorException | IOException ex)

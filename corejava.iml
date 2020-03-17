@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="web" name="Web">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/web/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/web" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/web/WEB-INF/classes" />
+    <output-test url="file://$MODULE_DIR$/web/WEB-INF/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/.idea" />
+      <excludeFolder url="file://$MODULE_DIR$/src/corejava/gutenberg" />
+      <excludeFolder url="file://$MODULE_DIR$/src/corejava/v1ch02" />
+      <excludeFolder url="file://$MODULE_DIR$/src/corejava/v1ch03" />
+      <excludeFolder url="file://$MODULE_DIR$/src/corejava/v1ch04" />
+      <excludeFolder url="file://$MODULE_DIR$/src/corejava/v1ch05" />
+      <excludeFolder url="file://$MODULE_DIR$/src/corejava/v1ch06" />
+      <excludeFolder url="file://$MODULE_DIR$/src/corejava/v1ch07" />
+      <excludeFolder url="file://$MODULE_DIR$/src/corejava/v1ch09" />
+      <excludeFolder url="file://$MODULE_DIR$/src/corejava/v1ch10" />
+      <excludeFolder url="file://$MODULE_DIR$/src/corejava/v1ch11" />
+      <excludeFolder url="file://$MODULE_DIR$/src/corejava/v1ch12" />
+      <excludeFolder url="file://$MODULE_DIR$/src/corejava/v1ch13" />
+      <excludeFolder url="file://$MODULE_DIR$/src/corejava/v1ch14" />
+      <excludeFolder url="file://$MODULE_DIR$/src/corejava/v2ch01" />
+      <excludeFolder url="file://$MODULE_DIR$/src/corejava/v2ch02" />
+      <excludeFolder url="file://$MODULE_DIR$/src/corejava/v2ch03" />
+      <excludeFolder url="file://$MODULE_DIR$/src/corejava/v2ch04" />
+      <excludeFolder url="file://$MODULE_DIR$/src/corejava/v2ch05" />
+      <excludeFolder url="file://$MODULE_DIR$/src/corejava/v2ch06" />
+      <excludeFolder url="file://$MODULE_DIR$/src/corejava/v2ch07" />
+      <excludeFolder url="file://$MODULE_DIR$/src/corejava/v2ch08" />
+      <excludeFolder url="file://$MODULE_DIR$/src/corejava/v2ch09" />
+      <excludeFolder url="file://$MODULE_DIR$/src/corejava/v2ch10" />
+      <excludeFolder url="file://$MODULE_DIR$/src/corejava/v2ch11" />
+      <excludeFolder url="file://$MODULE_DIR$/src/corejava/v2ch12" />
+      <excludeFolder url="file://$MODULE_DIR$/src/v1ch03" />
+      <excludeFolder url="file://$MODULE_DIR$/src/v1ch04" />
+      <excludeFolder url="file://$MODULE_DIR$/src/v1ch05" />
+      <excludeFolder url="file://$MODULE_DIR$/src/v1ch06" />
+      <excludeFolder url="file://$MODULE_DIR$/src/v1ch07" />
+      <excludeFolder url="file://$MODULE_DIR$/src/v1ch08" />
+      <excludeFolder url="file://$MODULE_DIR$/src/v1ch09" />
+      <excludeFolder url="file://$MODULE_DIR$/src/v1ch10" />
+      <excludeFolder url="file://$MODULE_DIR$/src/v1ch11" />
+      <excludeFolder url="file://$MODULE_DIR$/src/v1ch12" />
+      <excludeFolder url="file://$MODULE_DIR$/src/v1ch13" />
+      <excludeFolder url="file://$MODULE_DIR$/src/v1ch14" />
+      <excludeFolder url="file://$MODULE_DIR$/src/v2ch01" />
+      <excludeFolder url="file://$MODULE_DIR$/src/v2ch02" />
+      <excludeFolder url="file://$MODULE_DIR$/src/v2ch03" />
+      <excludeFolder url="file://$MODULE_DIR$/src/v2ch04" />
+      <excludeFolder url="file://$MODULE_DIR$/src/v2ch05" />
+      <excludeFolder url="file://$MODULE_DIR$/src/v2ch06" />
+      <excludeFolder url="file://$MODULE_DIR$/src/v2ch07" />
+      <excludeFolder url="file://$MODULE_DIR$/src/v2ch08" />
+      <excludeFolder url="file://$MODULE_DIR$/src/v2ch09" />
+      <excludeFolder url="file://$MODULE_DIR$/src/v2ch10" />
+      <excludeFolder url="file://$MODULE_DIR$/src/v2ch11" />
+      <excludeFolder url="file://$MODULE_DIR$/src/v2ch12" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="Tomcat 6.0.53" level="application_server_libraries" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/web/WEB-INF/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/web/WEB-INF/lib" recursive="false" />
+      </library>
+    </orderEntry>
+  </component>
+</module>
